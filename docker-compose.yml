@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+  robots-client-database:
+    image: adminer
+    ports:
+      - 8080:8080
+
+  robots-database:
+    image: postgres
+    environment:
+      POSTGRES_DB: robocop
+      POSTGRES_USER: alex
+      POSTGRES_PASSWORD: murphy
+    ports:
+      - 5433:5432
+

@@ -1,0 +1,747 @@
+There is no available units of [model:M10]
+There is no available units of [model:M6]
+There is no available units of [model:M2]
+There is no available units of [model:M1]
+There is no available units of [model:M8]
+There is no available units of [model:M7]
+There is no available units of [model:M7]
+There is no available units of [model:M10]
+There is no available units of [model:M8]
+There is no available units of [model:M6]
+There is no available units of [model:M1]
+There is no available units of [model:M7]
+There is no available units of [model:M2]
+There is no available units of [model:M10]
+There is no available units of [model:M6]
+There is no available units of [model:M9]
+There is no available units of [model:M9]
+Something wrong happened trying to deliver [message:Car:13 is defective. Check this out: ["Seat:123"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:13 is defective. Check this out: ["Seat:123"]] [code:404] [message:Not Found]
+There is no available units of [model:M5]
+There is no available units of [model:M2]
+Something wrong happened trying to deliver [message:Car:114 is defective. Check this out: ["Wheel:1137"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:144 is defective. Check this out: ["Wheel:1435"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:158 is defective. Check this out: ["Wheel:1576"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:215 is defective. Check this out: ["Wheel:2147"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:192 is defective. Check this out: ["Chass:1912"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:243 is defective. Check this out: ["Wheel:2425"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:282 is defective. Check this out: ["Seat:2813"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:330 is defective. Check this out: ["Wheel:3295"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:330 is defective. Check this out: ["Wheel:3295"]] [code:404] [message:Not Found]
+Statistic
+ - Total Cars ................... 340
+ - Defective Cars  .............. 9 => [M10,2] [M6,1] [M5,2] [M8,2] [M4,2] 
+ - Warehouse Cars  .............. 1 => [M4,1] 
+ - Stock Cars  .................. 179 => [M7,22] [M8,19] [M10,18] [M3,21] [M2,23] [M4,15] [M5,22] [M9,15] [M6,8] [M1,16] 
+ - Sold Cars  ................... 151 => [M5,16] [M7,13] [M2,14] [M8,14] [M1,20] [M3,19] [M6,19] [M4,11] [M9,16] [M10,9] 
+ - Revenues ..................... 114873.3
+ - Average Order Value .......... 3296.58
+Something wrong happened trying to deliver [message:Car:347 is defective. Check this out: ["Wheel:3467"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:349 is defective. Check this out: ["Seat:3483"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:373 is defective. Check this out: ["Seat:3723"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:397 is defective. Check this out: ["Laser:3969"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:436 is defective. Check this out: ["Seat:4353"]] [code:404] [message:Not Found]
+rake aborted!
+NameError: uninitialized constant Stock (call 'Stock.connection' to establish a connection)::STORE
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:16:in `buy_car'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:9:in `block in buy_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `buy_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:28:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:buying_cars
+(See full trace by running task with --trace)
+rake aborted!
+NameError: uninitialized constant #<Class:0x000055fc5dcf6778>::WAREHOUSE
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:17:in `block in build_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `build_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:12:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:building_cars
+(See full trace by running task with --trace)
+Something wrong happened trying to deliver [message:Car:494 is defective. Check this out: ["Engine:4931"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:506 is defective. Check this out: ["Wheel:5055"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:523 is defective. Check this out: ["Computer:5230"]] [code:404] [message:Not Found]
+Statistic
+ - Total Cars ................... 568
+ - Defective Cars  .............. 17 => [M10,2] [M6,2] [M5,3] [M8,2] [M4,2] [M9,1] [M7,1] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 10 => [M7,1] [M2,2] [M10,1] [M1,3] [M8,2] [M9,1] 
+ - Stock Cars  .................. 274 => [M7,30] [M5,31] [M3,36] [M2,36] [M9,24] [M10,26] [M1,25] [M8,23] [M4,21] [M6,22] 
+ - Sold Cars  ................... 267 => [M5,25] [M7,21] [M2,24] [M8,31] [M1,29] [M3,30] [M6,28] [M4,29] [M9,27] [M10,23] 
+ - Revenues ..................... 202908.6
+ - Average Order Value .......... 3293.15
+Statistic
+ - Total Cars ................... 579
+ - Defective Cars  .............. 17 => [M10,2] [M6,2] [M5,3] [M8,2] [M4,2] [M9,1] [M7,1] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 10 => [M4,1] [M5,3] [M6,1] [M7,2] [M1,1] [M2,1] [M9,1] 
+ - Stock Cars  .................. 283 => [M7,31] [M5,31] [M3,36] [M2,37] [M9,25] [M10,27] [M1,28] [M8,25] [M4,21] [M6,22] 
+ - Sold Cars  ................... 269 => [M5,25] [M7,21] [M2,24] [M8,31] [M1,30] [M3,30] [M6,28] [M4,29] [M9,27] [M10,24] 
+ - Revenues ..................... 204305.7
+ - Average Order Value .......... 3291.17
+Something wrong happened trying to deliver [message:Car:575 is defective. Check this out: ["Wheel:5746"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:578 is defective. Check this out: ["Seat:5773"]] [code:404] [message:Not Found]
+Statistic
+ - Total Cars ................... 587
+ - Defective Cars  .............. 19 => [M10,2] [M6,2] [M5,4] [M8,2] [M4,2] [M9,1] [M7,2] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 10 => [M9,1] [M2,1] [M5,3] [M6,2] [M7,2] [M4,1] 
+ - Stock Cars  .................. 288 => [M7,32] [M3,36] [M5,32] [M2,38] [M10,27] [M1,29] [M8,25] [M9,24] [M4,22] [M6,23] 
+ - Sold Cars  ................... 270 => [M5,25] [M7,21] [M2,25] [M8,31] [M1,30] [M3,30] [M6,28] [M4,29] [M9,27] [M10,24] 
+ - Revenues ..................... 205328.4
+ - Average Order Value .......... 3295.39
+Something wrong happened trying to deliver [message:Car:587 is defective. Check this out: ["Wheel:5865"]] [code:404] [message:Not Found]
+Something wrong happened trying to deliver [message:Car:588 is defective. Check this out: ["Wheel:5876"]] [code:404] [message:Not Found]
+Statistic
+ - Total Cars ................... 597
+ - Defective Cars  .............. 21 => [M10,2] [M6,2] [M5,4] [M8,2] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 10 => [M1,1] [M10,1] [M4,5] [M6,1] [M3,1] [M7,1] 
+ - Stock Cars  .................. 289 => [M7,30] [M3,36] [M5,35] [M2,38] [M10,26] [M8,25] [M1,28] [M9,25] [M4,22] [M6,24] 
+ - Sold Cars  ................... 277 => [M5,26] [M7,22] [M2,25] [M8,31] [M1,31] [M3,30] [M6,29] [M4,29] [M9,29] [M10,25] 
+ - Revenues ..................... 210083.4
+ - Average Order Value .......... 3286.5
+Statistic
+ - Total Cars ................... 609
+ - Defective Cars  .............. 21 => [M10,2] [M6,2] [M5,4] [M8,2] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 10 => [M8,3] [M10,2] [M3,2] [M5,1] [M7,1] [M1,1] 
+ - Stock Cars  .................. 296 => [M7,31] [M3,37] [M5,35] [M2,37] [M10,27] [M8,25] [M1,28] [M9,24] [M4,27] [M6,25] 
+ - Sold Cars  ................... 282 => [M5,26] [M7,24] [M2,27] [M8,31] [M1,32] [M3,30] [M6,29] [M4,29] [M9,29] [M10,25] 
+ - Revenues ..................... 213645.0
+ - Average Order Value .......... 3282.96
+Something wrong happened trying to deliver [message:Car:606 is defective. Check this out: ["Wheel:6056"]] [code:404] [message:Not Found]
+Statistic
+ - Total Cars ................... 618
+ - Defective Cars  .............. 22 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 10 => [M7,1] [M3,1] [M5,1] [M2,1] [M8,3] [M4,3] 
+ - Stock Cars  .................. 303 => [M7,32] [M3,38] [M5,36] [M2,37] [M10,29] [M8,27] [M1,29] [M4,27] [M6,25] [M9,23] 
+ - Sold Cars  ................... 283 => [M5,26] [M7,24] [M2,27] [M8,31] [M1,32] [M3,30] [M6,29] [M4,29] [M9,30] [M10,25] 
+ - Revenues ..................... 214103.4
+ - Average Order Value .......... 3278.38
+Statistic
+ - Total Cars ................... 624
+ - Defective Cars  .............. 22 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 5 => [M6,1] [M7,2] [M4,1] [M3,1] 
+ - Stock Cars  .................. 312 => [M7,33] [M3,39] [M5,36] [M2,38] [M10,29] [M8,30] [M1,29] [M4,30] [M6,25] [M9,23] 
+ - Sold Cars  ................... 285 => [M5,26] [M7,24] [M2,27] [M8,31] [M1,32] [M3,31] [M6,29] [M4,29] [M9,31] [M10,25] 
+ - Revenues ..................... 215418.9
+ - Average Order Value .......... 3275.38
+Statistic
+ - Total Cars ................... 638
+ - Defective Cars  .............. 22 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,1] 
+ - Warehouse Cars  .............. 10 => [M1,2] [M6,2] [M5,1] [M10,2] [M3,1] [M8,1] [M9,1] 
+ - Stock Cars  .................. 320 => [M7,35] [M3,40] [M5,37] [M2,38] [M10,29] [M8,32] [M1,29] [M4,31] [M6,26] [M9,23] 
+ - Sold Cars  ................... 286 => [M5,27] [M7,24] [M2,27] [M8,31] [M1,32] [M3,31] [M6,29] [M4,29] [M9,31] [M10,25] 
+ - Revenues ..................... 215999.1
+ - Average Order Value .......... 3272.71
+Something wrong happened trying to deliver [message:Car:632 is defective. Check this out: ["Seat:6314"]] [code:404] [message:Not Found]
+Statistic
+ - Total Cars ................... 647
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M6,1] [M7,2] [M8,2] [M5,1] [M10,1] [M4,1] [M1,1] [M2,1] 
+ - Stock Cars  .................. 326 => [M7,35] [M3,41] [M5,37] [M2,37] [M10,31] [M8,33] [M1,30] [M4,31] [M6,28] [M9,23] 
+ - Sold Cars  ................... 288 => [M5,27] [M7,24] [M2,27] [M8,31] [M1,32] [M3,32] [M6,29] [M4,29] [M9,32] [M10,25] 
+ - Revenues ..................... 217329.9
+ - Average Order Value .......... 3270.01
+Statistic
+ - Total Cars ................... 658
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M8,1] [M5,2] [M6,1] [M2,1] [M4,2] [M1,2] [M9,1] 
+ - Stock Cars  .................. 329 => [M7,37] [M3,40] [M5,36] [M2,38] [M10,32] [M8,34] [M1,30] [M4,31] [M6,28] [M9,23] 
+ - Sold Cars  ................... 296 => [M5,28] [M7,24] [M2,28] [M8,32] [M1,33] [M3,33] [M6,30] [M4,30] [M9,33] [M10,25] 
+ - Revenues ..................... 223043.4
+ - Average Order Value .......... 3265.28
+Statistic
+ - Total Cars ................... 667
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M9,3] [M7,1] [M2,1] [M8,1] [M4,2] [M5,2] 
+ - Stock Cars  .................. 336 => [M7,37] [M3,39] [M5,36] [M2,39] [M10,32] [M8,35] [M1,32] [M4,33] [M6,29] [M9,24] 
+ - Sold Cars  ................... 298 => [M5,30] [M7,24] [M2,28] [M8,32] [M1,33] [M3,33] [M6,30] [M4,30] [M9,33] [M10,25] 
+ - Revenues ..................... 224468.1
+ - Average Order Value .......... 3264.08
+Statistic
+ - Total Cars ................... 677
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M5,1] [M7,2] [M1,4] [M3,1] [M2,1] [M8,1] 
+ - Stock Cars  .................. 342 => [M7,38] [M3,38] [M5,38] [M2,39] [M10,32] [M1,32] [M8,35] [M4,34] [M6,29] [M9,27] 
+ - Sold Cars  ................... 302 => [M5,32] [M7,24] [M2,28] [M8,32] [M1,33] [M3,35] [M6,30] [M4,30] [M9,33] [M10,25] 
+ - Revenues ..................... 227139.0
+ - Average Order Value .......... 3259.17
+Statistic
+ - Total Cars ................... 689
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M2,2] [M3,2] [M5,1] [M10,2] [M1,2] [M7,1] 
+ - Stock Cars  .................. 345 => [M7,37] [M3,38] [M5,39] [M2,38] [M1,36] [M10,31] [M8,36] [M4,34] [M6,29] [M9,27] 
+ - Sold Cars  ................... 311 => [M5,32] [M7,27] [M2,31] [M8,33] [M1,33] [M3,35] [M6,30] [M4,31] [M9,33] [M10,26] 
+ - Revenues ..................... 234368.1
+ - Average Order Value .......... 3265.58
+Statistic
+ - Total Cars ................... 698
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M4,2] [M5,2] [M2,1] [M1,1] [M7,1] [M9,1] [M3,1] [M10,1] 
+ - Stock Cars  .................. 353 => [M7,38] [M3,40] [M5,40] [M2,39] [M1,38] [M10,33] [M8,36] [M6,29] [M4,33] [M9,27] 
+ - Sold Cars  ................... 312 => [M5,32] [M7,27] [M2,31] [M8,33] [M1,33] [M3,36] [M6,30] [M4,31] [M9,33] [M10,26] 
+ - Revenues ..................... 235134.9
+ - Average Order Value .......... 3265.76
+Statistic
+ - Total Cars ................... 708
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M6,1] [M9,1] [M4,2] [M5,3] [M7,2] [M8,1] 
+ - Stock Cars  .................. 358 => [M7,39] [M3,41] [M5,42] [M2,40] [M1,39] [M8,35] [M10,33] [M4,35] [M6,28] [M9,26] 
+ - Sold Cars  ................... 317 => [M5,32] [M7,27] [M2,32] [M8,34] [M1,33] [M3,36] [M6,30] [M4,32] [M9,35] [M10,26] 
+ - Revenues ..................... 239100.9
+ - Average Order Value .......... 3268.47
+Statistic
+ - Total Cars ................... 718
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M1,1] [M10,1] [M6,2] [M3,2] [M9,2] [M5,2] 
+ - Stock Cars  .................. 361 => [M7,41] [M3,40] [M5,44] [M2,39] [M1,39] [M8,36] [M10,33] [M4,35] [M6,28] [M9,26] 
+ - Sold Cars  ................... 324 => [M5,32] [M7,27] [M2,32] [M8,34] [M1,33] [M3,37] [M6,32] [M4,34] [M9,36] [M10,27] 
+ - Revenues ..................... 244036.8
+ - Average Order Value .......... 3263.87
+Statistic
+ - Total Cars ................... 727
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M8,1] [M7,2] [M4,2] [M6,1] [M9,1] [M10,1] [M5,1] [M2,1] 
+ - Stock Cars  .................. 362 => [M7,40] [M3,41] [M5,45] [M1,40] [M2,37] [M10,33] [M8,34] [M4,35] [M6,30] [M9,27] 
+ - Sold Cars  ................... 332 => [M5,34] [M7,28] [M2,34] [M8,36] [M1,33] [M3,37] [M6,32] [M4,34] [M9,37] [M10,27] 
+ - Revenues ..................... 249687.3
+ - Average Order Value .......... 3258.97
+Statistic
+ - Total Cars ................... 737
+ - Defective Cars  .............. 23 => [M10,2] [M6,2] [M5,4] [M8,3] [M4,3] [M9,1] [M7,3] [M2,2] [M3,1] [M1,2] 
+ - Warehouse Cars  .............. 10 => [M5,2] [M6,1] [M1,2] [M3,1] [M9,1] [M10,2] [M2,1] 
+ - Stock Cars  .................. 364 => [M7,41] [M5,46] [M1,40] [M3,40] [M2,36] [M10,34] [M8,35] [M6,29] [M4,35] [M9,28] 
+ - Sold Cars  ................... 340 => [M5,34] [M7,29] [M2,35] [M8,36] [M1,33] [M3,39] [M6,33] [M4,36] [M9,37] [M10,28] 
+ - Revenues ..................... 255841.2
+ - Average Order Value .......... 3260.72
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:41:in `process_orders'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:25:in `calculate_report'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:33:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:41:in `process_orders'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:25:in `calculate_report'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:33:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:generating_statistics
+(See full trace by running task with --trace)
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/guard_robot_service.rb:8:in `look_for_defects'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:17:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/guard_robot_service.rb:8:in `look_for_defects'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:17:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:detecting_defective_cars
+(See full trace by running task with --trace)
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:553:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attributes.rb:250:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:539:in `block in load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:536:in `load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:402:in `attribute_types'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attribute_methods.rb:187:in `_has_attribute?'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/inheritance.rb:57:in `new'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/persistence.rb:37:in `create'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:35:in `build_random_car'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:15:in `block in build_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `build_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:12:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:553:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attributes.rb:250:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:539:in `block in load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:536:in `load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:402:in `attribute_types'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attribute_methods.rb:187:in `_has_attribute?'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/inheritance.rb:57:in `new'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/persistence.rb:37:in `create'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:35:in `build_random_car'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:15:in `block in build_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `build_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:12:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:building_cars
+(See full trace by running task with --trace)
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:26:in `findFirstByModelAndStatus'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:16:in `buy_car'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:9:in `block in buy_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `buy_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:28:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:26:in `findFirstByModelAndStatus'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:16:in `buy_car'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:9:in `block in buy_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `buy_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:28:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:buying_cars
+(See full trace by running task with --trace)
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/guard_robot_service.rb:8:in `look_for_defects'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:17:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/guard_robot_service.rb:8:in `look_for_defects'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:17:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:detecting_defective_cars
+(See full trace by running task with --trace)
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:553:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attributes.rb:250:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:539:in `block in load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:536:in `load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:402:in `attribute_types'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attribute_methods.rb:187:in `_has_attribute?'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/inheritance.rb:57:in `new'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/persistence.rb:37:in `create'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:35:in `build_random_car'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:15:in `block in build_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `build_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:12:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:553:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attributes.rb:250:in `load_schema!'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:539:in `block in load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:536:in `load_schema'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/model_schema.rb:402:in `attribute_types'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/attribute_methods.rb:187:in `_has_attribute?'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/inheritance.rb:57:in `new'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/persistence.rb:37:in `create'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:35:in `build_random_car'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:15:in `block in build_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/builder_robot_service.rb:14:in `build_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:12:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:building_cars
+(See full trace by running task with --trace)
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:26:in `findFirstByModelAndStatus'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:16:in `buy_car'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:9:in `block in buy_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `buy_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:28:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/query_methods.rb:269:in `select'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:22:in `select'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:26:in `findFirstByModelAndStatus'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:16:in `buy_car'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:9:in `block in buy_cars'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `times'
+/home/alejandro/github/aamendola/robot-world/app/services/buyer_robot_service.rb:8:in `buy_cars'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:28:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:buying_cars
+(See full trace by running task with --trace)
+rake aborted!
+ActiveRecord::ConnectionNotEstablished: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:83:in `rescue in new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:41:in `process_orders'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:25:in `calculate_report'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:33:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+
+Caused by:
+PG::ConnectionBad: could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5433?
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `initialize'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `new'
+/var/lib/gems/2.5.0/gems/pg-1.2.3/lib/pg.rb:58:in `connect'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:78:in `new_client'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/connection_handling.rb:283:in `connection'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/querying.rb:47:in `find_by_sql'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:849:in `block in exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:867:in `skip_query_cache_if_necessary'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:834:in `exec_queries'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:638:in `load'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation.rb:249:in `records'
+/var/lib/gems/2.5.0/gems/activerecord-6.1.3.2/lib/active_record/relation/delegation.rb:88:in `each'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:41:in `process_orders'
+/home/alejandro/github/aamendola/robot-world/app/services/statistic_service.rb:25:in `calculate_report'
+/home/alejandro/github/aamendola/robot-world/lib/tasks/robots.rake:33:in `block (2 levels) in <top (required)>'
+/var/lib/gems/2.5.0/gems/rake-13.0.3/exe/rake:27:in `<top (required)>'
+Tasks: TOP => robots:generating_statistics
+(See full trace by running task with --trace)
